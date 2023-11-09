@@ -12,6 +12,7 @@
   ],
   "rules": {
     "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "react/react-in-jsx-scope": "off",
     "no-use-before-define": [
@@ -29,5 +30,6 @@
     "no-console": 0,
     "no-undef": 0,
     "no-plusplus": 0,
+    "no-var": 0,
   },
 }
