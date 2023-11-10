@@ -1,6 +1,8 @@
 import LoadingPage from "@/components/LoadingPage";
 import Spinner from "@/components/Spinner";
 
-export default function loading() {
+const loading = () => {
   return <LoadingPage />;
-}
+};
+
+export default loading;

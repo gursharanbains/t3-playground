@@ -43,8 +43,6 @@ export function getErrorResponse(
     error: response.error,
   };
 
-  console.log(response);
-
   return new NextResponse(JSON.stringify(response), {
     status: setStatus !== 0 ? setStatus : response.status,
     headers: { "Content-Type": "application/json" },

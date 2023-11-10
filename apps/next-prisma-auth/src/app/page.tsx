@@ -1,7 +1,16 @@
-import Image from "next/image";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <>
+      <Header />
+      <section className="bg-ct-blue-600 min-h-screen pt-20">
+        <div className="max-w-4xl mx-auto bg-ct-dark-500 rounded-md h-[20rem] flex justify-center items-center">
+          <p className="text-3xl text-blue-800 text-center font-semibold">
+            Next and Prisma Auth Demo
+          </p>
+        </div>
+      </section>
+    </>
   );
 }
